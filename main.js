@@ -1,4 +1,20 @@
-console.log ("hallo")
-console.log('example'); // функция выводит информацию в консоль
-alert('example'); // функция выводит информацию в специальном окне
-typeof('string'); // оператор typeof также можно вызвать в форме функции
+// возвращает случайное число от 0 до 1
+console.log(Math.random()); // 0.1534768990322
+// возвращает минимальное число
+console.log(Math.min(1, 2)); // 1
+// возвращает максимальное число
+console.log(Math.max(1, 2)); // 2
+// возвращает число возведенное в степень
+console.log(Math.pow(2, 8)); // 256
+
+// округление в меньшую сторону
+console.log(Math.floor(2.3)); // 2;
+console.log(Math.floor(2.9)); // 2;
+
+// округление в большую сторону
+console.log(Math.ceil(1.2)); // 2
+console.log(Math.ceil(0.1)); // 1
+
+// округление до ближайшего числа
+console.log(Math.round(2.4)); // 2
+console.log(Math.round(2.5)); // 3
