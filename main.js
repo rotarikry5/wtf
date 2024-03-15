@@ -18,3 +18,12 @@ console.log(Math.ceil(0.1)); // 1
 // округление до ближайшего числа
 console.log(Math.round(2.4)); // 2
 console.log(Math.round(2.5)); // 3
+
+const toDoList = ['почитать', 'помыть посуду', 'помыть машину'];
+const firstElement = toDoList[0]; // 'почитать'
+const lastElement = toDoList[toDoList.length - 1]; // 'помыть машину'
+
+let toDoList1 = ['почитать', 'помыть посуду', 'помыть машину'];
+toDoList1[0] = 'прогуляться';
+console.log(toDoList1); // ['прогуляться', 'помыть посуду', 'помыть машину'];
+
